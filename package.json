@@ -1,0 +1,27 @@
+{
+  "name": "edge-tts-render-service",
+  "version": "1.0.0",
+  "description": "Microsoft Edge Neural TTS Service for 3D AI Book Library, hosted on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "edge-tts",
+    "text-to-speech",
+    "bengali-tts",
+    "render",
+    "msedge-tts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "msedge-tts": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
